@@ -1,8 +1,8 @@
 ```bash
-pyinstaller --noconfirm --onefile --windowed main.py
+pyinstaller --noconfirm --onefile --windowed --collect-all scipy --collect-all sklearn main.py
 ```
 
 ```bash
-python -m PyInstaller --noconfirm --onefile --windowed main.py
+python -m PyInstaller --noconfirm --onefile --windowed --collect-all scipy --collect-all sklearn main.py
 ```
 
